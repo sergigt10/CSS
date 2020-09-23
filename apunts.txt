@@ -1,0 +1,21 @@
+** CSS **
+# overflow -> propiedad que controla que succede con el contenido cuándo este es demasiado grande para la area que pertenece. - overflow visible -> Default. The overflow is not clipped. The content renders outside the element's box.
+- overflow hidden -> The overflow is clipped, and the rest of the content will be invisible.
+- overflow scroll -> The overflow is clipped, and a scrollbar is added to see the rest of the content.
+- overflow auto -> Similar to scroll, but it adds scrollbars only when necessary.
+# em y rem -> https://cybmeta.com/em-y-rem
+# vh y vw -> https://es.stackoverflow.com/questions/93259/qu%C3%A9-diferencias-hay-realmente-entre-vh-vw-y
+
+** Flexbox **
+# justify-content: Alinear a lo largo del eje principal (horizontal).
+# align-items: Alinear elementos a lo largo del eje transversal (vertical).
+# align-content: Alinear cuando hay espacio extra en el eje transversal.
+
+** CSS Grid **
+# Similar a flexbox pero más poderoso. Trabaja con capas en dos dimensiones.
+
+** SASS **
+# .scss es mas usado que .sass porque .scss utiliza una sintaxi muy parecida a css.
+# Instalación: instalar node, npm install node-sass, npm init, añadir en package.json -> "sass": node-sass -w scss/ -o dist/css/ --recursive, npm run sass .
+# Sino queremos usar esta instalación podemos trabajar con el programa llamado koala .
+# @mixin -> funciones como en un lenguaje de programación pero sin devolver nada a diferencia @function
